@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #A31D1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-container {
+    background-color: #F8F2DE;
+    height: 500px;
+    width: 400px;
+    border-radius: 5px;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.div-container1 {
+    /* background-color: aqua; */
+    height: 90px;
+    display: flex;
+    font-size: 25px;
+    left: 20px;
+    padding-top: 10px;
+    height: 50px;
+}
+.checkbox1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#para1 {
+    padding-left: 20px;
+}
+#para2 {
+    padding-left: 15px;
+}
+#para3 {
+    position: relative;
+    /* left: 100px; */
+    background-color: grey;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+.button {
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 2px blue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
